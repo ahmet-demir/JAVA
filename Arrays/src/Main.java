@@ -13,9 +13,9 @@ public class Main {
 		PazarListe[4] = "domates";
 		PazarListe[5] = "kıyma";
 		PazarListe[2] = "patates";
+
 		for (int i = 0; i < PazarListe.length; i++) {
 			System.out.println(PazarListe[i]);
-
 		}
 		for (String liste : PazarListe) {
 			System.out.println(liste);
@@ -32,6 +32,17 @@ public class Main {
 			}
 		}
 
+		// Multi Dimensional Arrays
+		int[][] mtrx = new int[4][4];
+		int[] eleman = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 };
+		int k = 0;
+		for (int i = 0; i < 4; i++) {
+			for (int j = 0; j < 4; j++) {
+				System.out.println(k);
+				mtrx[i][j] = eleman[k];
+				k++;
+				System.out.println("mtrx = " + mtrx[i][j]);
+			}
+		}
 	}
-
 }
