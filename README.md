@@ -1,1 +1,1 @@
-JAVA dilini yeni öğreniyorum .öğrenim sürecimde örnek olarak oluşturduğum projelerdir.
+JAVA are projects made for learning purposes.
